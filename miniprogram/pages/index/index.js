@@ -27,13 +27,16 @@ Page({
   },
   // 点击[发送]按钮的事件
   tapbtn(){
-    var list =this.data.context
+    var list =this.data.context;
     if(okText==='ok'){ 
-    list.push(val);
-   this.setData({
-     context:list,
-     inputValue:''
-   })
+      list.unshift(val);
+      this.setData({
+        context:list,
+        inputValue:''
+      });     
+      //清空之前在输入框拿到的值
+      val = '';
+      okText='no';
     }
     else{
       wx.showToast({

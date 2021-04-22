@@ -11,22 +11,21 @@
   margin: 20rpx 10rpx;
   padding: 0 92rpx 0 50rpx;
   font-size: 36rpx;
-  background-color: rgba(229, 209, 255, 0.5);
-  border: 1rpx solid rgb(191, 187, 255);
-  border-radius: 40rpx;
+  background-color: rgba(255, 255, 255, 0.678);
+  border: 3rpx  solid rgb(191, 187, 255);
+  border-radius: 30rpx;
 }
 /* 删除按钮 */
 .del {
+  position: absolute;
+  right: 0;
+  bottom: 8rpx;
   height: 60rpx;
   line-height: 60rpx;
-  border:1px solid #f03e3e;
-  color: #f03e3e;
   padding: 0 16rpx;
   border-radius: 60rpx;
-  position: absolute;
-  right: 30rpx;
-  bottom: 6rpx;
-  font-size: 32rpx;
+  font-size: 50rpx;
+  color:rgb(196, 150, 255);
 }
 .sendmsg{
   position: fixed;
