@@ -1,0 +1,67 @@
+/* miniprogram/pages/index/index.wxss */
+/* 展现文字的样式 */
+.mes {
+  box-sizing: border-box;
+  position: relative;
+  min-height: 80rpx;
+  max-width:750rpx;
+  white-space:normal;
+  word-break:break-all;
+  line-height: 80rpx;
+  margin: 20rpx 10rpx;
+  padding: 0 92rpx 0 50rpx;
+  font-size: 36rpx;
+  background-color: rgba(229, 209, 255, 0.5);
+  border: 1rpx solid rgb(191, 187, 255);
+  border-radius: 40rpx;
+}
+/* 删除按钮 */
+.del {
+  height: 60rpx;
+  line-height: 60rpx;
+  border:1px solid #f03e3e;
+  color: #f03e3e;
+  padding: 0 16rpx;
+  border-radius: 60rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: 6rpx;
+  font-size: 32rpx;
+}
+.sendmsg{
+  position: fixed;
+  width: 100%;
+  bottom: 80rpx;
+}
+/* 输入框样式 */
+.srinput{
+  margin-left: 10rpx;
+  padding:30rpx 20rpx 0 20rpx;
+  width: 70%;
+  height: 90rpx;
+  border: 1rpx solid rgb(191, 187, 255);
+  border-radius: 40rpx;
+
+}
+/* 输入框的placeholdeClass */
+.placeholdeClass{
+  color:rgb(171, 166, 228) ;
+  font-size: large;
+}
+/* 发送按钮 */
+.btn {
+  position: absolute;
+  right: 10rpx;
+  top: 0rpx;
+  margin-top: 20rpx;
+  margin-left: 298rpx;
+  width: 150rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  background-color:rgb(204, 165, 255);
+  color: #fff;
+  font-weight: 600;
+  font-size: 34rpx;
+  border-radius: 35rpx;
+}

@@ -1,0 +1,9 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class="mes"  wx:for="{{context}}"  wx:key="index">{{item}}  <view class="del" bindtap="deldata" data-delindex="{{index}}">删</view></view>
+
+
+
+<view class="sendmsg">
+  <textarea  class="srinput" placeholder="输入点什么吧" placeholder-class="placeholdeClass" show-confirm-bar="false"  bindinput="inputq" value="{{inputValue}}" ></textarea >
+  <view class="btn" bindtap="tapbtn">发 送</view>
+</view>
